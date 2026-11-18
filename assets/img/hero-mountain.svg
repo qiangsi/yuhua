@@ -1,0 +1,43 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 470" preserveAspectRatio="xMidYMax slice">
+  <defs>
+    <linearGradient id="yh-far" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#6f6a63" stop-opacity="0.22"/>
+      <stop offset="100%" stop-color="#6f6a63" stop-opacity="0.02"/>
+    </linearGradient>
+    <linearGradient id="yh-mid" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#4b4640" stop-opacity="0.17"/>
+      <stop offset="100%" stop-color="#4b4640" stop-opacity="0.03"/>
+    </linearGradient>
+    <linearGradient id="yh-near" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#33302c" stop-opacity="0.16"/>
+      <stop offset="100%" stop-color="#33302c" stop-opacity="0.01"/>
+    </linearGradient>
+    <linearGradient id="yh-mist" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#f7f5f0" stop-opacity="0"/>
+      <stop offset="62%" stop-color="#f7f5f0" stop-opacity="0"/>
+      <stop offset="100%" stop-color="#f7f5f0" stop-opacity="0.96"/>
+    </linearGradient>
+  </defs>
+
+  <!-- 远山 -->
+  <path d="M0 250 C120 190 220 232 340 200 C460 168 560 214 680 188 C820 158 920 208 1040 178 C1120 158 1162 184 1200 174 L1200 470 L0 470 Z" fill="url(#yh-far)"/>
+  <!-- 中景 -->
+  <path d="M0 330 C140 268 240 320 380 280 C520 240 600 300 740 264 C880 228 980 298 1120 258 C1160 246 1182 254 1200 249 L1200 470 L0 470 Z" fill="url(#yh-mid)"/>
+  <!-- 近景 -->
+  <path d="M0 402 C160 350 300 396 460 360 C620 324 760 386 920 350 C1060 320 1140 360 1200 340 L1200 470 L0 470 Z" fill="url(#yh-near)"/>
+
+  <!-- 云雾横抹 -->
+  <g stroke="#f7f5f0" stroke-linecap="round" opacity="0.75">
+    <path d="M120 300 Q 300 288 470 302" stroke-width="7" fill="none"/>
+    <path d="M700 262 Q 900 250 1080 266" stroke-width="6" fill="none"/>
+    <path d="M260 372 Q 470 360 660 374" stroke-width="8" fill="none"/>
+  </g>
+
+  <!-- 飞鸟 -->
+  <g fill="none" stroke="#4b4640" stroke-width="1.6" stroke-linecap="round" opacity="0.5">
+    <path d="M812 118 q 7 -7 14 0 q 7 -7 14 0"/>
+    <path d="M856 100 q 5 -5 10 0 q 5 -5 10 0"/>
+  </g>
+
+  <rect width="1200" height="470" fill="url(#yh-mist)"/>
+</svg>
